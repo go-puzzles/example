@@ -3,11 +3,8 @@ module github.com/go-puzzles/example
 go 1.22.0
 
 require (
-	github.com/go-puzzles/cores v1.0.6
-	github.com/go-puzzles/grpc-puzzle v1.0.0
-	github.com/go-puzzles/grpcui-puzzle v1.0.0
-	github.com/go-puzzles/http-puzzle v1.0.3
-	github.com/go-puzzles/pflags v1.0.0
+	github.com/go-puzzles/cores v1.0.7
+	github.com/go-puzzles/pflags v1.0.1
 	github.com/go-puzzles/plog v1.0.5
 	github.com/gorilla/mux v1.8.1
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.20.0
@@ -48,6 +45,7 @@ require (
 	github.com/pelletier/go-toml/v2 v2.2.2 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/robfig/cron/v3 v3.0.1 // indirect
+	github.com/rs/cors v1.11.0 // indirect
 	github.com/sagikazarmark/locafero v0.6.0 // indirect
 	github.com/sagikazarmark/slog-shim v0.1.0 // indirect
 	github.com/soheilhy/cmux v0.1.5 // indirect

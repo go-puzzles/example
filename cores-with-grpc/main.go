@@ -2,11 +2,11 @@ package main
 
 import (
 	"github.com/go-puzzles/cores"
+	grpcpuzzle "github.com/go-puzzles/cores/puzzles/grpc-puzzle"
+	grpcuipuzzle "github.com/go-puzzles/cores/puzzles/grpcui-puzzle"
 	"github.com/go-puzzles/example/cores-with-grpc/examplepb"
 	srv "github.com/go-puzzles/example/cores-with-grpc/service"
 	"github.com/go-puzzles/example/cores-with-grpc/testpb"
-	grpcpuzzle "github.com/go-puzzles/grpc-puzzle"
-	grpcuipuzzle "github.com/go-puzzles/grpcui-puzzle"
 	"github.com/go-puzzles/plog"
 	"github.com/go-puzzles/plog/level"
 	"google.golang.org/grpc"
